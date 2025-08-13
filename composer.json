@@ -1,0 +1,38 @@
+{
+    "name": "panelify/language",
+    "description": "Laravel Blade admin module for managing model language with CRUD, views, and routes, built on jobmetric/laravel-language for seamless Panelio integration.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Majid Mohammadian",
+            "email": "majeedmohammadian@gmail.com",
+            "homepage": "https://www.linkedin.com/in/majidmohammadian/",
+            "role": "Full Stack Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "laravel/framework": ">=9.19",
+        "jobmetric/laravel-package-core": "^1.22",
+        "jobmetric/laravel-language": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Panelify\\Langauge\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Panelify\\Langauge\\PanelifyLangaugeServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "support": {
+        "issues": "https://github.com/panelify/language/issues",
+        "forum": "https://twitter.com/jobmetric",
+        "source": "https://github.com/panelify/language"
+    }
+}
