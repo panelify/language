@@ -15,7 +15,8 @@
         "php": ">=8.2",
         "laravel/framework": ">=9.19",
         "jobmetric/laravel-package-core": "^1.22",
-        "jobmetric/laravel-language": "^2.0"
+        "jobmetric/laravel-language": "^2.0",
+        "jobmetric/domi": "^1.14"
     },
     "autoload": {
         "psr-4": {
