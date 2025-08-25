@@ -19,6 +19,9 @@
         "jobmetric/domi": "^1.14"
     },
     "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
         "psr-4": {
             "Panelify\\Langauge\\": "src/"
         }
